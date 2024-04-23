@@ -2,7 +2,7 @@
 ## Posts_SwiftUi_combine
 
 
-Swiftui program with network call and error handling to show a list of posts or show netwoek error
+Swiftui program with network call and error handling to show a list of posts or show network error
 
 
 ## Test script added
