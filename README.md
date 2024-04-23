@@ -10,8 +10,13 @@ Swiftui program with network call and error handling to show a list of posts or 
   ## Test decodeing
 
   > Data Model Tests: Inside the #if DEBUG block, an extension on the Post struct is added with a static mockPosts array containing sample post data. This can be used for testing purposes.
+
   > Network Service Tests: Inside the #if DEBUG block, an extension on the NetworkService class is added with a static mockPosts array and a fetchMockPosts function. The fetchMockPosts   function returns a publisher that emits the mockPosts array, allowing you to test the network service without making an actual network request.
+
+
   > View Model: In the fetchPosts function of the PostsViewModel, a conditional compilation block is added to use either the fetchMockPosts function (in debug mode) or the fetchPosts function (in release mode) from the NetworkService.
+
+
 With these changes, when you run the app in debug mode (e.g., in the Xcode simulator or on a debug device), it will use the mock data for testing purposes. In release mode, it will make an actual network request to fetch the posts.
 
   ## Test networkservice
