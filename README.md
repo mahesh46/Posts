@@ -7,7 +7,7 @@ Swiftui program with network call and error handling to show a list of posts or 
 
 ## Test script added
 
-  ## Test decodeing
+  ## Test decoding
 
   > Data Model Tests: Inside the #if DEBUG block, an extension on the Post struct is added with a static mockPosts array containing sample post data. This can be used for testing purposes.
 
