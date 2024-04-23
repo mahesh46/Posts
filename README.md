@@ -4,6 +4,7 @@
 
 Swiftui program with network call and error handling to show a list of posts or show network error
 
+> commented out combine code and changed to use async await
 
 ## Test script added
 
